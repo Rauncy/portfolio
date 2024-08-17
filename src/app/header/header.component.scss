@@ -1,0 +1,76 @@
+#top-navbar
+{
+    @apply bg-base-300;
+    max-width: 100vw;
+    padding: .5em;
+    padding-right: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    min-width: fit-content;
+}
+
+// Common bottom bordering
+#top-navbar, .navbar-dropdown-content
+{
+    border-bottom: 5px solid;
+    @apply border-primary;
+    border-radius: 0 0 10px 10px;
+}
+
+.navbar-item
+{
+    @apply text-primary;
+    display: inline-block;
+    font-weight: 700;
+    padding: 5px .5em;
+    border-radius: 0.25em;
+}
+
+.navbar-title
+{
+    font-size: 3rem;
+}
+
+.navbar-title .decor
+{
+    font-size: 2rem;
+}
+
+.navbar-title .decor::before
+{
+    content: " - ";
+}
+
+.navbar-button
+{
+    font-size: 2em;
+    user-select: none;
+    cursor: pointer;
+}
+
+.navbar-button:hover
+{
+    background-color: rgba(255,255,255,.1);
+}
+
+.navbar-dropdown-content
+{
+    @apply bg-base-300;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.navbar-dropdown:hover .navbar-dropdown-content
+{
+    display: flex;
+}
+
+.navbar-dropdown .navbar-dropdown-item
+{
+    font-size: 1.5em;
+}
