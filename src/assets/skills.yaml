@@ -1,0 +1,107 @@
+-   Name: CSS
+    Icon: "./assets/logoCss.svg"
+    Category: language
+    Description: |-
+        Created multiple sites for personal and commercial use, with and without
+        additional frameworks to assist in styling
+
+-   Name: JavaScript
+    Icon: ""
+    Category: language
+    Description: |-
+        Experience scripting with Nodejs for multiple personal projects
+        Experience creating multiple sites for personal and commercial use
+
+-   Name: NodeJS
+    Icon: ""
+    Category: environment
+    Description: |-
+        Experience making apps using REST APIs, sites using web frameworks, and
+        various CLI tools
+
+-   Name: HTML
+    Icon: ""
+    Category: language
+    Description: |-
+        Experience creating websites for personal and commercial use
+
+-   Name: C#
+    Icon: ""
+    Category: language
+    Description: |-
+        2+ years professional experience working on large collaborative
+        repositories with many dependencies, standalone programs,
+
+-   Name: Git
+    Icon: ""
+    Category: tool
+    Description: |-
+        8+ years working experience in
+
+-   Name: Python
+    Icon: ""
+    Category: language
+    Description: |-
+        3+ years working experience and 2+ years professional experience
+        Experience working with data processing, machine learning, computer
+        vision, CLI scripts, servers, 
+
+-   Name: C++
+    Icon: ""
+    Category: language
+    Description: |-
+        2+ years working experience working with microcontrollers and drivers
+
+-   Name: Angular
+    Icon: ""
+    Cagtegory: library
+    Description: |-
+        1/2+ year working experience and 1/4 year professional experience
+        creating webapps and sites
+
+-   Name: Subversion (SVN) / CVS
+    Icon: ""
+    Category: tool
+    Description: |-
+        Professional experience interacting with and contributing to Subversion
+        version controlled repositories
+
+-   Name: Pandas
+    Icon: ""
+    Category: library
+    Description: |-
+        TODO
+
+-   Name: SciKit Learn
+    Icon: ""
+    Category: library
+    Description: |-
+        TODO
+
+-   Name: PyTorch
+    Icon: ""
+    Category: library
+    Description: |-
+        TODO
+
+-   Name: Linux
+    Icon: ""
+    Category: environment
+    Description: |-
+        4+ years working in Linux (GNU/Linux) server and desktop environments.
+        Experience with RHEL and Debian based distros.
+        Experience with headless execution and running containers / multiple
+        connected containers
+
+-   Name: Docker
+    Icon: ""
+    Category: environment
+    Description: |-
+        1+ year working experience with running applications in containers and
+        inter-container communication to run cohesive applications
+
+-   Name: Agile
+    Icon: ""
+    Category: system
+    Description: |-
+        3+ years professional experience working in an Agile team using Kanban

@@ -1,0 +1,40 @@
+<h1 class="text-3xl">I am the webpage content</h1>
+<app-blockquote class="block">
+    My name is Chris Zeller
+</app-blockquote>
+<app-blockquote class="block">
+    I strive for greatness in every project I am a part of and am always willing to take on a challenge
+</app-blockquote>
+<h1 class="text-2xl">I am the theme picker</h1>
+<div class="join join-vertical">
+    <input type="radio" name="theme-buttons" class="btn theme-controller join-item" aria-label="Light"
+        value="light" />
+    <input type="radio" name="theme-buttons" class="btn theme-controller join-item" aria-label="Dark"
+        value="dark" />
+    <input type="radio" name="theme-buttons" class="btn theme-controller join-item" aria-label="Forest"
+        value="forest" />
+    <input type="radio" name="theme-buttons" class="btn theme-controller join-item" aria-label="Dim" value="dim" />
+    <input type="radio" name="theme-buttons" class="btn theme-controller join-item" aria-label="CMYK"
+        value="cmyk" />
+</div>
+<app-resume-section sectionTitle="Skills">
+    <app-entry-grid [items]="languageCards"></app-entry-grid>
+</app-resume-section>
+<app-resume-section sectionTitle="Objective">
+    A full time job in the Computer Science or Software Engineering field where optimization, robustness,
+    responsiveness, simplicity, efficiency, flexibility, and passion are key in the workplace and for success
+</app-resume-section>
+<app-resume-section sectionTitle="Education">
+    <ul>
+        <li class="text-2xl text-primary weight-bold">B.S. Computer Science</li>
+        <ul class="indent-list">
+            <li>University of Texas at Dallas</li>
+            <li>December 2022</li>
+        </ul>
+        <li class="text-2xl text-primary weight-bold">High School</li>
+        <ul class="indent-list">
+            <li>Obra D. Tompkins High School</li>
+            <li>May 2019</li>
+        </ul>
+    </ul>
+</app-resume-section>

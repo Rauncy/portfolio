@@ -1,0 +1,23 @@
+@reference "../../styles.css";
+
+.resume-section-header
+{
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 1.5rem 0 0.5rem 0;
+}
+
+.template-content :where(h1, h2, h3, h4, h5, h6)
+{
+    @apply text-primary;
+}
+
+.template-content :where(ol, ul, menu)
+{
+    padding-inline-start: 40px;
+}
+
+.template-content > :where(ol, ul, menu)
+{
+    padding: 0;
+}

@@ -1,0 +1,10 @@
+@reference "../../styles.css";
+
+.blockquote
+{
+    display: inline-block;
+    @apply bg-base-300;
+    border-left: 3px solid;
+    @apply border-primary;
+    padding: 5px 10px;
+}

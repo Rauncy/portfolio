@@ -1,0 +1,10 @@
+@reference "../../styles.css";
+
+#footer
+{
+    width: 100%;
+    height: 100px;
+    @apply bg-accent;
+    border-top: 5px solid;
+    @apply border-primary;
+}

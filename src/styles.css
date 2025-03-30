@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@plugin "daisyui" {
+    themes: forest --prefersdark, light --default, dark, dim, cmyk;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content
+{
+    margin: 10px;
+}
+
+.indent-list
+{
+    padding-inline-start: 40px;
+}
+
+@utility weight-bold
+{
+    font-weight: 500;
+}
+
+@utility weight-black
+{
+    font-weight: 700;
+}
+
+h1, .header-1
+{
+    @apply text-3xl;
+    @apply text-primary;
+    @apply weight-black;
+}
+
+h2, .header-2
+{
+    @apply text-2xl;
+    @apply text-primary;
+    @apply weight-black;
+}
+
+h3, .header-3
+{
+    @apply text-xl;
+    @apply text-primary;
+    @apply weight-black;
+}
+
+h4, .header-4
+{
+    @apply text-lg;
+    @apply text-primary;
+    @apply weight-black;
+}
+
+h5, .header-5
+{
+    @apply text-primary;
+    @apply weight-black;
+}
+
+h6, .header-6
+{
+    @apply text-sm;
+    @apply text-primary;
+    @apply weight-black;
+}

@@ -1,0 +1,15 @@
+<div class="grid-root">
+    <div class="grid-item" *ngFor="let item of items">
+        <div class="frame inline">
+            <div class="title-bar">
+                <span class="title header-1 inline" [style]="'color: ' + item.Color">{{item.Name}}</span>
+                <div class="style" *ngIf="item.Icon !== undefined || item.IconClass !== undefined || item.Flourish !== undefined">
+                    <img *ngIf="item.Icon !== undefined" [src]="item.Icon" class="icon-frame inline-block"/>
+                    <i *ngIf="item.IconClass !== undefined" [class]="item.IconClass"></i>
+                    <span class="flourish">{{item.Flourish}}</span>
+                </div>
+            </div>
+            <div class="description inline-block">{{item.Description}}</div>
+        </div>
+    </div>
+</div>
